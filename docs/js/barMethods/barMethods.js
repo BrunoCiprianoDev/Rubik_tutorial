@@ -269,12 +269,6 @@ componentLP2.innerHTML = "Quando identificar a configuração acima, execute a f
 "pode ser necessário a execução da mesma até 3 vezes.";
 componentL.appendChild(componentLP2);
 
-let imgL2 = document.createElement("img");
-imgL2.setAttribute("id", "imgL2");
-imgL2.setAttribute("src", "assets/yellowCross.ico")
-
-componentL.appendChild(imgL2);
-
 //Component lastLayer =================================================================//
 let componentLastLayer = document.createElement("div");
 componentLastLayer.setAttribute("id", "divMethod");
@@ -300,7 +294,7 @@ componentPLastLayer.appendChild(componentPLastLayerLink);
 
 let img1LastLayer = document.createElement("img");
 img1LastLayer.setAttribute("id", "img1LastLayer");
-img1LastLayer.setAttribute("src", "assets/lastLayerImg1.ico");
+img1LastLayer.setAttribute("src", "assets/lastLayerImg.ico");
 componentLastLayer.appendChild(img1LastLayer);
 
 let componentP2LastLayer = document.createElement("p");
@@ -440,7 +434,7 @@ const paramsStepsList = [
     },
     {
         id: "lastlayerCorner",
-        srcImage: "./assets/lastlayerCorner.ico",
+        srcImage: "./assets/lastlayerBorders.ico",
         listOfMethods: componentLastLayerCorner
     },
     {
