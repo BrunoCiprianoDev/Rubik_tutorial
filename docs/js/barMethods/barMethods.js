@@ -430,7 +430,7 @@ const paramsStepsList = [
     },
     {
         id: "yellowCrossStep",
-        srcImage: "assets/yellowCross.ico",
+        srcImage: "assets/yellowcross.ico",
         listOfMethods: componentL
     },
     {
