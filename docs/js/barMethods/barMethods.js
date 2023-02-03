@@ -433,8 +433,8 @@ const paramsStepsList = [
         listOfMethods: componentLastLayer
     },
     {
-        id: "lastlayerCorner",
-        srcImage: "assets/lastlayerBr.ico",
+        id: "lastlayerBorders",
+        srcImage: "./assets/lastlayerBr.ico",
         listOfMethods: componentLastLayerCorner
     },
     {
