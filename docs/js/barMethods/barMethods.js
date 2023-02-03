@@ -425,7 +425,7 @@ const paramsStepsList = [
     },
     {
         id: "f2l",
-        srcImage: "assets/f2l.ico",
+        srcImage: "./assets/f2l.ico",
         listOfMethods: componentSecondLayer
     },
     {
