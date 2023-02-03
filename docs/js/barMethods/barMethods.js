@@ -415,12 +415,12 @@ componentEmpty.setAttribute("id", "divMethod");
 const paramsStepsList = [
     {
         id: "cross",
-        srcImage: "assets/cross.ico",
+        srcImage: "./assets/cross.ico",
         listOfMethods: componentCros
     },
     {
         id: "firstLayer",
-        srcImage: "assets/first_layer.ico",
+        srcImage: "./assets/first_layer.ico",
         listOfMethods: componentFirstLayer
     },
     {
@@ -430,27 +430,27 @@ const paramsStepsList = [
     },
     {
         id: "yellowCrossStep",
-        srcImage: "assets/yellowLayer.ico",
+        srcImage: "./assets/yellowLayer.ico",
         listOfMethods: componentL
     },
     {
         id: "lastlayer",
-        srcImage: "assets/lastlayer.ico",
+        srcImage: "./assets/lastlayer.ico",
         listOfMethods: componentLastLayer
     },
     {
         id: "lastlayerCorner",
-        srcImage: "assets/lastlayerCorner.ico",
+        srcImage: "./assets/lastlayerCorner.ico",
         listOfMethods: componentLastLayerCorner
     },
     {
         id: "lastPiecesRotation",
-        srcImage: "assets/rubikComplete.ico",
+        srcImage: "./assets/rubikComplete.ico",
         listOfMethods: componentLastPieceRotation
     },
     {
         id: "lastPiecesRotation",
-        srcImage: "assets/close.ico",
+        srcImage: "./assets/close.ico",
         listOfMethods: componentEmpty
     }
 
