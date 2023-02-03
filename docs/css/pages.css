@@ -1,0 +1,16 @@
+body {
+	background-color: #141414;
+	color: white;
+	text-shadow: 0px 1px 1px black;
+	font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body iframe {
+    margin-top: 2em;
+    width: 90vw;
+    height: 90vh;
+}

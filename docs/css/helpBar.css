@@ -1,0 +1,35 @@
+#helpBarContainer {
+    position: absolute;
+    top: 8em;
+    right: 2em;
+    width: 4vw;
+    height: 100vh;
+}
+
+#helpBarContainer button {
+    transition: 0.5s;
+    color: black;
+    font-weight: bold;
+    border: 3px solid black;
+    height: 3em;
+    width: 3em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 10px;
+}
+
+#helpBarContainer button:hover {
+    transition: 0.3s;
+    height: 2.8em;
+    width: 2.8em;
+    box-shadow: rgb(252, 252, 252) 0px 1px 10px;
+}
+
+#tipArea {
+    position: absolute;
+    width: 100vw;
+    height: 20em;
+    display: flex;
+    top: -4em;
+    justify-content: center;
+    z-index: -10;
+}

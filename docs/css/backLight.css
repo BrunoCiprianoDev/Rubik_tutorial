@@ -1,0 +1,11 @@
+.light {
+	position: absolute;
+	height: 120px;
+	border-radius: 50%;
+	width: 120px;
+	top: 45%;
+	left: 45%;
+	-webkit-box-shadow: -10px 0px 300px 30px rgba(255, 255, 255, 1);
+	-moz-box-shadow: -4px 200px 300px 30px rgba(255, 255, 255, 1);
+	box-shadow: -4px 0px 300px 30px rgba(255, 255, 255, 1);
+}

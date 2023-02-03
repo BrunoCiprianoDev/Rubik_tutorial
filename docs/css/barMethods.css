@@ -1,0 +1,279 @@
+#stepsBar {
+    position: absolute;
+    display: flex;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+
+#stepsBar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+    border-style: none;
+    width: 3.8em;
+    height: 3.8em;
+    border-radius: 1em;
+    background-color: transparent;
+}
+
+#stepsBar button:hover {
+    box-shadow: rgb(252, 252, 252) 0px 1px 15px;
+    width: 3.7em;
+    height: 3.7em;
+    border-radius: 1em;
+    transition: 0.5s;
+}
+
+#stepImage {
+    width: 4em;
+    margin: 0;
+}
+
+#stepImage:hover {
+    transition: 0.5s;
+    width: 3.7em;
+    margin: 0;
+}
+
+#sideBarMethods {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+    width: 100vw;
+    height: 35em;
+    border: 1px dashed white;
+}
+
+#sideBarMethods div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    width: 100%;
+    padding-left: 3em;
+}
+
+#sideBarMethods img {
+    width: 4em;
+    height: 4em;
+}
+
+#divMethod {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/*cross components*/
+#titleComponent {
+    position: absolute;
+    top: 4em;
+    left: 2em;
+}
+
+
+#paragraph1ComponentCross {
+    position: absolute;
+    width: 20em;
+    top: 10em;
+    left: 3em;
+}
+
+#paragraph2ComponentCross {
+    position: absolute;
+    width: 20em;
+    top: 30em;
+    left: 3em;
+}
+
+#img1ComponentCros {
+    position: absolute;
+    width: 10em;
+    top: 18em;
+    left: 3em;
+}
+
+/* First layer styles*/
+
+#containerAlgFirstLayer {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 3em;
+    position: absolute;
+    /*border: 1px dashed white;*/
+    top: 15em;
+    width: 15em;
+    height: 30em;
+    margin-left: 3em;
+}
+
+.algDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgButton {
+    width: 5em;
+    height: 5em;
+}
+
+/*Second layer*/
+
+#containerAlgSecondLayer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 2em;
+    column-gap: 3em;
+    position: absolute;
+    /*border: 1px dashed white;*/
+    top: 16em;
+    width: 15em;
+    height: 9em;
+    margin-left: 3em;
+}
+
+#paragraph2ComponentLayer2 {
+    position: absolute;
+    width: 20em;
+    top: 25em;
+    left: 3em;
+}
+
+.algDiv3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 9em;
+    height: 8em;
+    top: 32em;
+    left: 7em;
+}
+
+#imgL {
+    position: absolute;
+    top: 18em;
+    left: 4em;
+    width: 8em;
+    height: 8em;
+}
+
+#passo4paragrafo2 {
+    position: absolute;
+    top: 26em;
+    left: 3em;
+    width: 19em;
+}
+
+#imgL2 {
+    position: absolute;
+    top: 33em;
+    left: 4em;
+    width: 8em;
+    height: 8em;
+}
+
+#passo5paragrafo1 {
+    position: absolute;
+    top: 10em;
+    left: 3em;
+    width: 19em;
+    height: 8em;
+}
+
+#img1LastLayer {
+    position: absolute;
+    top: 19em;
+    left: 3em;
+    height: 8em;
+}
+
+#passo5paragrafo2 {
+    position: absolute;
+    top: 27em;
+    left: 3em;
+    width: 19em;
+    height: 8em;
+}
+
+/* Last layer corner */
+#lastLayerParagraph1 {
+    position: absolute;
+    top: 10em;
+    left: 3em;
+    width: 19em;
+    height: 8em;
+}
+
+#lastLayerParagraph2 {
+    position: absolute;
+    top: 25em;
+    left: 3em;
+    width: 19em;
+    height: 8em;
+}
+
+#lastLayerParagraph3 {
+    position: absolute;
+    top: 31em;
+    left: 3em;
+    width: 19em;
+    height: 8em;
+}
+
+
+#img1LastLayerCorner {
+    position: absolute;
+    top: 17em;
+    left: 3em;
+    width: 8em;
+    height: 8em;
+}
+
+/*Component lat piece rotation*/
+#componentLastPieceRotationParagraph {
+    position: absolute;
+    top: 10em;
+    left: 3em;
+    width: 20em;
+    height: 8em;
+}
+
+#containerAlgLastPieceRotation {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15em;
+    left: 6em;
+}
+
+.algDivLastCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.algDivLastCenter img {
+    height: 8em;
+
+}
+
+#divMethodClose {
+    font-size: 3em;
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right:1em;
+    margin-top: 1em;
+}

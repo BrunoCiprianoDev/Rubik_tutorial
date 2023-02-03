@@ -1,0 +1,13 @@
+#sidebar {
+    position: fixed;
+    height: 100vh;
+    border: 1px dashed red;
+    width: 2em;
+}
+
+#hudClasses {
+    border: 1px dashed white;
+}
+
+
+
